@@ -3,7 +3,7 @@
 /**
  * main- Prints _putchar followed by a new line
  * using only put char
- * return: 0(success)
+ * Return: 0(success)
  */
 
 int main(void)
@@ -18,4 +18,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-}	
+}
