@@ -7,7 +7,7 @@
  * Return: 1 for +ve, 0 for zero, -1 for -ve
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 	if (n > 0)
 		return (1);
