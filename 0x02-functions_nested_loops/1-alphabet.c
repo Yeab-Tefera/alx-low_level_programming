@@ -3,7 +3,8 @@
 /**
  * print_alphabet - print lowercase alphabets
  * followed by a new line
- * Return: 
+ * 
+ * Return: void  
  */
 void print_alphabet(void)
 {
