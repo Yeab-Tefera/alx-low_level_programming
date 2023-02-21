@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * main- print the alphabet, in lowercase 
+ * print_alphabet- print lowercase 
  * followed by a new line
  * use only _putchar twice 
- * Return: void
+ *
+ * Return: 
  */
 
 void print_alphabet(void)
