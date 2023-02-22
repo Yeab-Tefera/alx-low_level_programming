@@ -23,17 +23,17 @@ void times_table(void)
 
 			if (k < 10 && j != 0)
 			{
-				_puchar(',');
-				_puchar(' ');
-				_puchar(' ');
-				_puchar(k + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(k + '0');
 			}
 			else if (k >= 10)
 			{
-				_puchar(',');
-				_puchar(' ');
-				_puchar((K \ 10) + '0');
-				_puchar((K % 10) + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar((K \ 10) + '0');
+				_putchar((K % 10) + '0');
 			}
 		}
 	}
