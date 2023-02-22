@@ -10,5 +10,5 @@
 
 int add(int x, int y)
 {
-	return ((x + y), '\n');
+	return ((x + y) + '\n');
 }
