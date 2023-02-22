@@ -17,4 +17,6 @@ void print_to_98(int n)
 	{
 		printf("%d, ", i);
 	}
+	
+	return (0);
 }
