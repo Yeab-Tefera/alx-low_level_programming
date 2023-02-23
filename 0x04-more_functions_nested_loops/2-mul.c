@@ -5,10 +5,10 @@
  * @a: num1
  * @b: num2
  *
- * Return: 0 success
+ * Return: multiplied
  */
 
 int mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
