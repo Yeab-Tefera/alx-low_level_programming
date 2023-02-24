@@ -7,15 +7,15 @@
 
 void print_most_numbers(void)
 {
-	int n = 0, m = 0;
+	int n = 0;
 	
 	while (n < 10)
 	{
-		while (m != 2 && m != 4)
+		if (n != 2 && n != 4)
 		{
-			_putchar(m);
-			n++;
+			_putchar(n);
 		}
+
 		n++;
 	}
 		_putchar('\n')
