@@ -3,11 +3,13 @@
 #include <stdio.h>
 
 /**
- * main- 
+ * main- assigns a rendom number to the variable n
+ * each time it is executed
  *
  * Return: Always 0 (success)
-int main(void)
+ */
 
+int main(void)
 {
 	int n;
 
