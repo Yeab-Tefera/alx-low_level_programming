@@ -19,18 +19,16 @@ int main(void)
 			{
 				for(l = 48; l < 58; l++)
 				{
-					if (i > j)
-					{
-						putchar(i);
-						putchar(j);
-						putchar(' ');
-						putchar(k);
-						putchar(l);
-						if (i == 57 && j == 56)
-							continue;
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(i);
+					putchar(j);
+					putchar(' ');
+					putchar(k);
+					putchar(l);
+					if (i == 57 && j == 56)
+						continue;
+					putchar(',');
+					putchar(' ');
+					
 				}
 			}
 		}
