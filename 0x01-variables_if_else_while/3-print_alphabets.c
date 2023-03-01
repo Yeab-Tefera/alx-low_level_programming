@@ -20,7 +20,7 @@ int main(void)
 		}
 			for (j = 65; j < 91; j++)
 			{
-				putchar(i);
+				putchar(j);
 			}
 
 	}
