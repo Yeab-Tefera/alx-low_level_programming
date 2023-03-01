@@ -10,7 +10,7 @@
 int main(void)
 {
 	int i, j;
-	
+
 	for (i = 97; i < 124; i++)
 	{
 		if (i < 123)
@@ -25,6 +25,6 @@ int main(void)
 
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
