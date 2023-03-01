@@ -11,16 +11,18 @@ int main(void)
 {
 	int i, j;
 	
-	for (i = 97; i < 123; i++)
+	for (i = 97; i < 124; i++)
 	{
-		putchar(i);
-		continue;
-			for (j = 65; j < 91; j++)	
+		if (i < 123)
+		{
+			putchar(i);
+			continue;
+		}
+			for (j = 65; j < 91; j++)
 			{
 				putchar(i);
 			}
-		
-	
+
 	}
 	putchar('\n');
 	
