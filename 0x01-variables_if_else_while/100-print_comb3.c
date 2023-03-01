@@ -18,11 +18,11 @@ int main(void)
 			{
 				putchar(i);
 				putchar(j);
-				if (i == 57 && j == 57)
-					continue;
-
-				putchar(',');
-				putchar(' ');
+				if (i != 57 && j != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
