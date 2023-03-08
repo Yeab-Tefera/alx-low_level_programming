@@ -4,6 +4,7 @@
  * print_line- draws a straight line in the terminal
  * @n: numer of times the character _ should be printed
  */
+
 void print_line(int n)
 {
 	int i;
@@ -18,4 +19,5 @@ void print_line(int n)
 		}
 		_putchar('\n');
 	}
+	_putchar('\n');
 }
