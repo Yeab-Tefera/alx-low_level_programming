@@ -9,7 +9,7 @@
  *
  * Return: -1 if j*j > i, otherwise j
  */
- 
+
 int Magic_sqrt(int i, int j)
 {
 	if (j * j > i)
