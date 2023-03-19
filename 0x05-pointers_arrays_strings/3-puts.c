@@ -5,7 +5,7 @@
  * to stdout
  * @str: string to print
  *
- * Return: nothing 
+ * Return: nothing
  */
 
 void _puts(char *str)
@@ -21,5 +21,5 @@ void _puts(char *str)
 		}
 		_putchar(str[c]);
 		c++;
-	}	
+	}
 }
