@@ -6,6 +6,8 @@
  * @name: string name of the dog
  * @age: float age of the dog
  * @owner: char owner of the dog
+ *
+ * Desciption: new type that contains dog name, age, and owner.
  */
 
 typedef struct dog
