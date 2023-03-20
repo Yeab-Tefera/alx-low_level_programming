@@ -1,7 +1,5 @@
-#ifndef __FILE__
-#define __FILE__
-
-#include <stdio.h>
+#ifndef stdio_h
+#define stdio_h
 
 /**
  * main- prints the name of the file
