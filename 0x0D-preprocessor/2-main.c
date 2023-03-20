@@ -1,5 +1,4 @@
-#ifndef stdio_h
-#define stdio_h
+#include <stdio.h>
 
 /**
  * main- prints the name of the file
@@ -14,4 +13,3 @@ int main(void)
 
 	return (0);
 }
-#endif
