@@ -30,7 +30,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			ptr = "(nil)";
 		printf("%s%s", spr, ptr);
 	}
-	_putchar("\n");
+	_putchar('\n');
 
 	va_end(sl);
 }
