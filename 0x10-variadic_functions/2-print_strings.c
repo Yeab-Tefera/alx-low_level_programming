@@ -16,7 +16,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	va_list sl;
 	unsigned int i;
 
-	if (*separator == 0 || separator == NULL)
+	if (separator == NULL || *separator == 0)
 		spr = "";
 	else
 		spr = (char *) separator;
@@ -25,7 +25,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		printf("%s", va_arg(sl, char *));
 	for (i = 1; i < n; i++)
 	{
-		ptr = va_arg(sl, char *);
+		ptr = va_arg(sl, char*);
 		if (ptr == NULL)
 			ptr = "(nil)";
 		printf("%s%s", spr, ptr);
