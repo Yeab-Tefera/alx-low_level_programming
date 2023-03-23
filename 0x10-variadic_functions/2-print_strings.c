@@ -12,13 +12,13 @@
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	const char *spr, *ptr;
+	char *spr, *ptr;
 	va_list sl;
 	unsigned int i;
 
 	if (*separator == 0 || separator == NULL)
 		spr = "";
-	else 
+	else
 		spr = (char *) separator;
 	va_start(sl, n);
 	if (n > 0)
